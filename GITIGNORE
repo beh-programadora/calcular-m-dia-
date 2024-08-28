@@ -1,0 +1,37 @@
+
+### .gitignore
+
+```gitignore
+# Ignorar arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de cache
+__pycache__/
+Enunciado do Projeto
+# Enunciado do Projeto: Calculador de Média com Função
+
+## Objetivo
+
+Desenvolver um script em Python que defina uma função para calcular a média de três notas fornecidas pelo usuário e exiba a média formatada com duas casas decimais.
+
+## Requisitos
+
+1. O script deve definir uma função chamada `calcular_media` que recebe três parâmetros (nota1, nota2, nota3) e retorna a média desses valores.
+2. O script deve solicitar ao usuário a entrada de três notas utilizando a função `input()`.
+3. Utilize a função `calcular_media` para calcular a média das três notas fornecidas pelo usuário.
+4. Exiba a média calculada com duas casas decimais usando a função `print()`.
+
+## Passos para Implementação
+
+1. Crie um arquivo chamado `calcular_media.py`.
+2. No arquivo, defina a função `calcular_media` que calcula a média das três notas.
+3. Solicite ao usuário que insira três notas e armazene esses valores em variáveis.
+4. Chame a função `calcular_media`, passando as três notas como argumentos, e armazene o resultado em uma variável.
+5. Exiba a média formatada com duas casas decimais.
+6. Salve e execute o script para verificar se a média é calculada e exibida corretamente.
+
+## Exemplo de Saída Esperada
+
+Digite a primeira nota: 7.5 Digite a segunda nota: 8.0 Digite a terceira nota: 6.5 A média das notas é: 7.33
